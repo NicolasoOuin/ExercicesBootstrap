@@ -1,0 +1,20 @@
+body {
+    background-color: gainsboro;
+    padding-bottom: 1em;
+}
+
+#div1 {
+    background-color:gray;
+}
+
+#div2 {
+    background-color:blueviolet;
+}
+
+#div3 {
+    background-color:palegreen;
+}
+
+#moncheval {
+    border-radius:4%;
+}

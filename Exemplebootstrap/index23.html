@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Utilisation de Bootstrap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles23.css">
+    </head>
+
+    <body>    
+
+        <header>
+
+        </header>
+
+        <section id="section1" class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center">
+                    <h2>Exemple d'utilisation de bootstrap</h2>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center">
+                    <h3>Avec des images et un sous titre</h3>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center col-md-push-4">
+                    <img class="img-responsive" src="img/img1.png" alt="avions">
+                    <br>
+                    <span>
+                        <strong>Premier Span</strong> qui se placera en second puisqu'on la pousse de 4 colonnes: col-md-push-4 si l'écran ≥992px.
+                    </span>
+                </div>
+                <div class="col-md-2 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center col-md-pull-4">
+                    <img class="img-responsive" src="img/img2.png" alt="img/png">
+                    <br>
+                    <span>
+                        <strong>Second Span</strong> qui se placera en premier puisqu'on la tire de 4 colonnes: col-md-pull-4 si l'écran ≥992px.
+                    </span>
+                </div>
+                <div class="col-md-2 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center">
+                    <img class="img-responsive" src="img/img3.png" alt="img/png">
+                    <br>
+                    <span>
+                        <strong>Troisième Span</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center">
+                    <h3>Imbrication de colonnes dans d'autres colonnes et<br>utilisation du .hidden .visible</h3>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-justify">
+                    <div id='div1' class="col-md-3"><strong>col-md-3</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, hic, consequatur, ab, ut iste illo ullam vero fugit dolor quos et incidunt inventore cupiditate rerum ipsum voluptates at nam corporis.</div>
+                    <div id='div2' class="col-md-4"><strong>col-md-4</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, voluptates, commodi tenetur illum reiciendis quo inventore porro rem necessitatibus beatae repudiandae impedit distinctio fugit ipsa nostrum maxime praesentium accusantium molestias!</div>
+                    <div id='div3' class="col-md-5"><strong>col-md-5</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, sit doloremque maiores aliquid debitis iste deleniti. Velit, in enim voluptatem sequi fugit ratione sit iure ducimus amet quibusdam eos cupiditate.</div>
+                </div>
+                <div class="col-md-4 text-justify">
+                    <div class="visible-md visible-lg hidden-sm hidden-xs text-center">
+                        <img id="moncheval" class="img-thumbnail img-responsive" src="img/biker.jpg" alt="Biker">
+                        <br>
+                        <span>Ça cest moi</span>
+                    </div>
+                    <div class="hidden-md hidden-lg visible-sm visible-xs">
+                        <br>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr class="">
+                                    <td class="">#</td>
+                                    <td class="">Premier</td>
+                                    <td class="">Second</td>
+                                    <td class=""></td>
+                                    <td class="">...</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <td class="active">L1C1</td>
+                                    <td class="success">L1C2</td>
+                                    <td class="warning">L1C3</td>
+                                    <td class="danger">L1C4</td>
+                                    <td class="info">L1C5</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="active">L2C1</td>
+                                    <td class="success">L2C2</td>
+                                    <td class="warning">L2C3</td>
+                                    <td class="danger">L2C4</td>
+                                    <td class="info">L2C5</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="active">...</td>
+                                    <td class="success">...</td>
+                                    <td class="warning">...</td>
+                                    <td class="danger">...</td>
+                                    <td class="info">...</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="active">...</td>
+                                    <td class="success">...</td>
+                                    <td class="warning">...</td>
+                                    <td class="danger">...</td>
+                                    <td class="info">...</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="active">...</td>
+                                    <td class="success">...</td>
+                                    <td class="warning">L5C3</td>
+                                    <td class="danger">L5C4</td>
+                                    <td class="info">L5C5</td>
+                                </tr>
+                            </tbody>                       
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-4 text-justify">
+                    <div class="hidden-md hidden-lg visible-sm visible-xs text-center">
+                        <img id="moncheval" class="img-thumbnail img-responsive" src="img/animal.jpg" alt="Cheval">
+                        <br>
+                        <span>Voici mon cheval</span>
+                    </div>
+                    <div class="visible-md visible-lg hidden-sm hidden-xs">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr class="">
+                                    <td class="">#</td>
+                                    <td class="">Premier</td>
+                                    <td class="">Second</td>
+                                    <td class=""></td>
+                                    <td class="">...</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="active">
+                                    <td class="">L1C1</td>
+                                    <td class="">L1C2</td>
+                                    <td class="">L1C3</td>
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                </tr>
+                                <tr class="success">
+                                    <td class="">L2C1</td>
+                                    <td class="">L2C2</td>
+                                    <td class="">L2C3</td>
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                </tr>
+                                <tr class="info">
+                                    <td class="">...</td>
+                                    <td class="">...</td>
+                                    <td class="">L5C3</td>
+                                    <td class="">L5C4</td>
+                                    <td class="">L5C5</td>
+                                </tr>
+                            </tbody>                            
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+
+        </footer>
+
+
+        <script src="js/scripts23.js" language="javascript"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery-3.1.1.min.js">
+
+        </body>
+        
+        </html>
